@@ -15,7 +15,6 @@
                 <li class="links"><a href="#welcome">About</a></li>
                 <li class="links"><a href="#books">My Favorite Things</a></li>
                 <li class="links"><a href="#work">My Inspiration</a></li>
-                <li class="links"><a href="#writings">Writings</a></li>
                 <li class="links"><a href="#contact">Contact</a></li>
             </ul>
         </center>
@@ -41,18 +40,18 @@
     <hr>
     <section id="work">
     <h1> My Inspirations </h1>
-    <h3> Click the pictures below to view my inspirations </h3>
+    <h3 id="cp"> Click the pictures below to view my inspirations </h3>
         <span>
             <a href="https://en.wikipedia.org/wiki/David_Baszucki" target="_blank">
         <img id="db" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2830633298878%29.jpg/440px-TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2830633298878%29.jpg">
             </a>
         <br>
         <div>
-            <p> One of my inspirations is David Baszucki. He is the co-founder of Roblox. He is one of my inspirations because he built designed and built my favorite game which is Roblox. He is also an inventor, entrepreneur, and a game designer which are things that I love. This is why David Baszucki is one of my inspirations. </p>
-            <p> Another one of my inspirations is Barbara Blackburn.
+            <p><em><b>	 One of my inspirations is David Baszucki. He is the co-founder of Roblox. He is one of my inspirations because he built designed and built my favorite game which is Roblox. He is also an inventor, entrepreneur, and a game designer which are things that I love. This is why David Baszucki is one of my inspirations. </b></em></p>
+            <p><em><b> Another one of my inspirations is Barbara Blackburn.
                 She is the fastest typist in the worlds with speeds up to 212 words per minute. That is 4 times faster than the average typer. 
                 She is one of my insirations because she made me want to type faster than average. 
-                This is why Barbara Blackburn is one of my inspirations.</p>
+                This is why Barbara Blackburn is one of my inspirations.</b></em></p>
             </div>
         <br>
             <a href="https://www.thetranscriptionpeople.com.au/2016/05/19/fastest-typist-history/" target="_blank">
@@ -60,9 +59,30 @@
             </a>
             </span>
     </section>
+    <hr>
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.787161928746!2d-80.77379108495657!3d34.96194287668978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88542984a93c71c7%3A0x3fa873f4bb2d55e4!2s2808%20Bevis%20Ln%2C%20Waxhaw%2C%20NC%2028173!5e0!3m2!1sen!2sus!4v1617928454055!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <div class="contact_1">
+            <a href="mailto:shreyanjoc@gmail.com?Subject=Hello!">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;
+                <h3>shreyanjoc@gmail.com</h3>
+                </a>
+                <a href="#">
+                <i class="fa fa-instagram"></i>&nbsp;&nbsp;&nbsp;
+                <h3>My Instagram Id</h3>
+                </a> 
+            </div>
+    </section>
 </body></html>
 
 <style>
+    #cp {
+        padding-bottom: 30px;
+    }
+    h3 {
+        color: black;
+    }
     #bb, #db {
         padding-left: 50px;
         padding-right: 50px;
@@ -71,10 +91,6 @@
     
     img:hover {
         transform: scale(0.9);
-    }
-    
-    h3 {
-        padding-bottom: 40px;
     }
     span {
         display: flex;
@@ -143,7 +159,7 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
     
-    #books, #welcome, #work {
+    #books, #welcome, #work, #contact {
     overflow: hidden;
     background-color: cornflowerblue;
     text-align: center;
